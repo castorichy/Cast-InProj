@@ -9,3 +9,7 @@ get source code here https://github.com/castorichy/Cast-InProj/blob/main/Practic
 #### **Task 2**
 Write a program in python that reverse a number between 10 and 10000 given and returns a reversed number.
 get source code here https://github.com/castorichy/Cast-InProj/blob/main/Practices/src/reverseNumber.py
+
+#### **Task 3**
+Write a program in python that will check if a word is pelindrome. get source code here https://github.com/castorichy/Cast-InProj/blob/main/Practices/src/pelindrom.py
+
