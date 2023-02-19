@@ -37,3 +37,6 @@ class BaseModel:
                 BaseModel.__Points += self.__inst_3
             else:
                 print(f"Sorry You Lost\nThe anser is {sys_anser}")
+
+    def getPoints(self):
+        return self.__Points

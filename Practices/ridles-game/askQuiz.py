@@ -18,15 +18,16 @@ class AskQuize(BaseModel):
         for item in items_list:
             while i <= 3:
                 user_anser = input("{} ".format(item.get("Quize")))
-                sys_a = item.get("anser")
-                sys_anser = sys_a.split('"')
-                ret = self.checkAns(user_anser, sys_anser[1], i)
-                print(type(user_anser))
+                sys_anser = item.get("anser")
+                ret = self.checkAns(user_anser, sys_anser, i)
+                print(sys_anser)
 
                 if ret == None:
                     i = 1
                     break
                 i += 1
 
+        points = self.getPoints()
+        print(f"You earned a total of {points} points")
 
 
