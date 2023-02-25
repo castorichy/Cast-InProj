@@ -8,7 +8,7 @@
 <h3>getpass()</h3>
 <p>It provides hiden password without echoing when Prompts
 The getpass() function is used to prompt to users using the string prompt and reads the input from the user as Password.The input read defaults to “Password: ” is returned to the caller as a string.</p>
-<h3>Format<h3>
+<h3>Format</h3>
 
 `getpass.getpass(Prompts="password": Stream=None)`
 <p>Here no prompt is provided by the user insteed it uses default prompt `password`</p>
