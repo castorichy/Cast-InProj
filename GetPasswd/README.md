@@ -36,6 +36,9 @@ easyLog()
 Password: 
 Password Entered =  castorichy
 ```
+<p> In case of security pass,words one can ask for security quastions like Whats your fevorite color?<br> Here we user prompt to display the security quastions but the input doesnt prompt as you type.</p>
 
+<h5>Example</h5>
+<p> Click this <a href="https://github.com/castorichy/Cast-InProj/blob/main/GetPasswd/getuser_prompt.py" alt="getpass">here</a> to get the code and test it your self/p>
 <h3> getuser() </h3>
 
