@@ -3,7 +3,7 @@ import getpass as gp
 
 def easyLog():
     try:
-        paswd = gp.getpass()
+        paswd = gp.getpass(stream=None)
     except Exception as Error:
         print("Error: ", Error)
     else:
