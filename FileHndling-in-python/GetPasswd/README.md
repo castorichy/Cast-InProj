@@ -2,8 +2,8 @@
 <p><strong>getpass()</strong> is used to Prompts password without echoing or without showing password when entering. its also called blind password.</p>
 
 <h3>Getpass provides two functions</h3>
-1. getpass()
-2. getuser()
+<li> getpass()</li>
+<li>getuser()</li>
 
 <h5>getpass()</h5>
 <p>It provides hiden password without echoing when Prompts
