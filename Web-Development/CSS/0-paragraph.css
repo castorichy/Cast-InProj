@@ -1,0 +1,22 @@
+#hd {
+    text-align: center;
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.par {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.txt {
+    position:relative;
+    height: 20%;
+    width: 40%;
+    top: 30%;
+    border: ridge;
+    left: 300;
+    resize:none;
+    background-color: paleturquoise;
+}
